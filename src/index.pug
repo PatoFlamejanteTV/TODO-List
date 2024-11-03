@@ -1,0 +1,13 @@
+doctype html
+html
+  head
+    title To-Do List
+    link(rel="stylesheet" href="styles.css")
+  body
+    .container
+      h1 To-Do List
+      ul#todo-list
+        //- A lista será preenchida dinamicamente pelo TypeScript
+      input#new-task(type="text" placeholder="Adicione uma nova tarefa...")
+      button#add-task Adicionar Tarefa
+    script(src="script.js")
